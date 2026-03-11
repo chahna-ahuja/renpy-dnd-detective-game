@@ -8,11 +8,6 @@ This project combines **interactive storytelling, database-driven gameplay, and 
 
 The game was developed as part of the **Information Structures and Implications** course in the **MSc Digital Humanities program at KU Leuven (Belgium)**.
 
-### Development Team
-
-- **Game Design & Development:** Chahna Ahuja, Liangyu Gan  
-- **Character Illustrations:** Darlee Urbzitondo  
-
 ---
 
 # Game Description
@@ -40,10 +35,9 @@ The project demonstrates the integration of **interactive storytelling, database
 
 ## Database Design
 
-- Adaptation and extension of a **mock CSV dataset inspired by the Dungeons & Dragons world**
-- Dataset source:  
-  https://github.com/PatrickLeal/projeto_baldursgate_vendor_sales
-- Data imported and structured in **MySQL** for use within the game
+- Adaptation of a **mock CSV dataset inspired by the Dungeons & Dragons world**
+- Dataset source: A [mock database](https://github.com/PatrickLeal/projeto_baldursgate_vendor_sales) set in the DnD universe was modified as per our game storyworld
+- Data imported, modified, structured in **MySQL** for use within the game
 
 ## Gameplay Systems
 
@@ -60,7 +54,7 @@ The project demonstrates the integration of **interactive storytelling, database
 
 ## Visual Design
 
-- Custom **character illustrations and visual assets** created specifically for the game
+- Custom **character illustrations** created specifically for the game
 
 ---
 
@@ -69,13 +63,15 @@ The project demonstrates the integration of **interactive storytelling, database
 - **Ren’Py** – Visual novel game engine  
 - **Python** – Game logic and database interaction  
 - **MySQL** – Backend database for clues, suspects, and investigation data  
-- **CSV datasets** – Source data for in-game shop records  
+- **CSV datasets** – Source data for in-game shop records
+- **Open source visual assets**- For the background open source assets from itch.io were used
 
 ---
 
 # Repository Structure
-
-
+- **game** folder contains a zip file for the game, scripts, assets everything that is required to run the game.
+- **data** folder contains the mysql backend data.
+- **scripts** folder contains Python querybuilder and queries to create the JSON for the file. The file paths are hardcoded as this is just for documentation purposes.
 ---
 
 # Academic Context
@@ -83,6 +79,12 @@ The project demonstrates the integration of **interactive storytelling, database
 This project was developed as part of the **Information Structures and Implications** course within the **Master of Science in Digital Humanities at KU Leuven**.
 
 The assignment explored how **data structures and relational databases can support interactive narrative systems and investigative gameplay mechanics** within digital storytelling environments.
+
+### Development Team
+
+- **Game Design & Development:** Chahna Ahuja, Liangyu Gan  
+- **Character Illustrations:** Darlee Urbzitondo  
+
 
 ---
 
