@@ -69,9 +69,11 @@ The project demonstrates the integration of **interactive storytelling, database
 ---
 
 # Repository Structure
-- **game** folder contains a zip file for the game, scripts, assets everything that is required to run the game.
 - **data** folder contains the mysql backend data.
 - **scripts** folder contains Python querybuilder and queries to create the JSON for the file. The file paths are hardcoded as this is just for documentation purposes.
+- **gameplay** folder contains a flowchart of the gameplay.
+- Download the game from releases.
+
 ---
 
 # Academic Context
